@@ -1,3 +1,13 @@
+/* ---------- Colors used in this website ----------
+   Aqua blue:  #1E88E5
+   Deep navy:  #0D2B6B
+   Buddy red:  #D32F2F
+   Sunny yellow: #FFC93C
+   Water white: #F4FAFF
+   Ink (text): #1B2A3A
+---------------------------------------------------- */
+
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +26,7 @@ h1, h2, h3 {
   color: #0D2B6B;
 }
 
-
+/* Header */
 header {
   background-color: white;
   padding: 12px 20px;
@@ -25,6 +35,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .logo {
   margin: 0;
   color: #1E88E5;
@@ -41,7 +52,7 @@ nav a:hover {
   color: #D32F2F;
 }
 
-
+/* Buttons */
 .button {
   display: inline-block;
   padding: 12px 24px;
@@ -83,3 +94,86 @@ nav a:hover {
   padding: 30px 20px;
   background-color: #0D2B6B;
 }
+
+.box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px 24px;
+  text-align: center;
+  width: 240px;
+}
+
+.box h3 {
+  margin: 0;
+}
+
+.box p {
+  margin: 4px 0 0 0;
+}
+
+
+.section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border: 1px solid #1E88E5;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form .button {
+  margin-top: 20px;
+}
+
+
+.raffle {
+  background-color: #FFC93C;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.raffle ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.small {
+  font-size: 14px;
+  color: #4A5D70;
+}
+
+
+footer {
+  background-color: #0D2B6B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+
+
+
