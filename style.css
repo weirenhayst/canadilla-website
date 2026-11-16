@@ -16,7 +16,7 @@ h1, h2, h3 {
   color: #0D2B6B;
 }
 
-/* Header */
+
 header {
   background-color: white;
   padding: 12px 20px;
@@ -24,4 +24,62 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+.logo {
+  margin: 0;
+  color: #1E88E5;
+}
+
+nav a {
+  color: #0D2B6B;
+  text-decoration: none;
+  margin-left: 14px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #D32F2F;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 6px 6px 6px 0;
+  border: 2px solid #0D2B6B;
+  border-radius: 30px;
+  color: #0D2B6B;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button.red {
+  background-color: #D32F2F;
+  border-color: #D32F2F;
+  color: white;
+}
+
+
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #E3F1FC;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+
+.why {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 30px 20px;
+  background-color: #0D2B6B;
 }
